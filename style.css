@@ -1,0 +1,189 @@
+.container1 {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    padding: 6px;
+}
+
+.container1 > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container2 {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 6px;
+}
+
+.container2 > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerGrid {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "cabeca cabeca lado"
+                         "cabeca cabeca seccao"
+                         "rodape rodape rodape";
+    padding: 6px;
+}
+
+.containerGrid > * {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    grid-area: cabeca;
+}
+
+aside {
+    grid-area: lado;
+}
+
+section {
+    grid-area: seccao;
+}
+
+footer {
+    grid-area: rodape;
+}
+
+.containerFr {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 3fr 2fr 1fr;
+    padding: 6px;
+}
+
+.containerFr > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerInline {
+    background-color: blue;
+    display: inline-grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    padding: 6px;
+    width: 500px;
+}
+
+.containerInline > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerStart {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    padding: 6px;
+}
+
+.containerStart > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.containerEnd {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    padding: 6px;
+}
+
+.containerEnd > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.containerBetween {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.containerBetween > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.containerAround {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.containerAround > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.containerEvenly {
+    background-color: blue;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.containerEvenly > div {
+    background-color: #ffa;
+    border: 3px solid;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+}
